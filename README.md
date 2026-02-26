@@ -18,3 +18,37 @@ The system detects license plates from images and recognizes the characters on t
 - Computer Vision techniques
 
 ##  Project Structure
+computer-vision-project/
+│
+├── .vscode/ # VS Code configuration
+├── filetest/ # Test images or videos
+├── main.py # Main program
+├── tan1.pt # Trained model file
+└── README.md # Project documentation
+
+##  Installation
+1. Clone the repository:
+bash
+git clone https://github.com/BangMarcy/computer-vision-project.git
+Install required libraries:
+pip install opencv-python numpy torch
+How to Run
+Run the main program:
+python main.py
+Make sure the model file tan1.pt is in the correct directory.
+
+ ## Results
+
+The system can detect vehicle license plates from images
+
+Characters on the license plate are recognized with acceptable accuracy for academic purposes
+
+ ## Author
+
+Major: Information Technology
+
+Specialization: Data Science
+
+##  License
+
+This project is developed for academic and learning purposes only.
